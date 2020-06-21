@@ -1,0 +1,181 @@
+ul, li {
+    list-style: none;
+    font-family: monospace;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.flex-logo-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.flex-menu {
+    display: flex;
+}
+.flex-menu li {
+    margin-left: 10px;
+}
+.flex-menu li a {
+    display: block;
+    padding: 10px ;
+}
+#namesite {
+    font-family: 'Barrio', 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.box-octopus {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.octopusimage {
+    width: 100%;
+    margin: 0px;
+}
+.octopustext {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items:center;
+
+}
+.octopustextfilho {
+    width: 30%;
+    height: 300px;
+    font-family: monospace;
+    font-size: 20px;
+    align-self: center;
+    text-align: end;
+}
+.octopusbutton {
+    background-color: transparent;
+    border-color: black;
+    text-align: right;
+    align-self: center;
+}
+.box-seahorse{
+    display: flex;
+    background-color: #A9A9A9;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.seahorseimage{
+    width: 50%;
+
+}
+.seahorsetext {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items:center;
+    
+}
+.seahorsetextfilho{
+    width: 30%;
+    height: 300px;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: left;
+    align-self: center;
+    justify-self: center;
+}
+.seahorsebutton {
+    background-color: transparent;
+    border-color: black;
+    align-self: center;
+    text-align: right;
+}
+.box-whale{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.whaleimage {
+    width: 100%;
+    margin: 0px;
+}
+.whaletext {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items:center;
+}
+.whaletextfilho{
+    width: 40%;
+    height: 300px;
+    font-family: monospace;
+    font-size: 20px;
+    align-self: center;
+    text-align: end;
+}
+.whalebutton {
+    background-color: transparent;
+    border-color: black;
+    text-align: right;
+    align-self: center;
+
+}
+.box-jellyfish {
+    display: flex;
+    background-color: #A9A9A9;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+.jellyfishimage {
+    width: 70%;
+}
+.jellyfishtext {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items:center;
+}
+.jellyfishtextfilho{
+    width: 30%;
+    height: 300px;
+    font-family: monospace;
+    font-size: 20px;
+    text-align: left;
+    align-self: center;
+    justify-self: center;
+}
+.jellyfishbutton{
+    background-color: transparent;
+    border-color: black;
+    align-self: center;
+    text-align: right;
+}
+.footerbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+.flex-footer {
+    display: flex;
+}
+.flex-footer li {
+    margin-left: 10px;
+}
+.flex-footer li a {
+    display: block;
+    padding: 10px ;
+}
